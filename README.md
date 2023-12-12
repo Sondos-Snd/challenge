@@ -41,12 +41,18 @@ web
 
 steps:
 
-- define app basic dependencies
-- spring init
-- create github project
-- push v0 to main
-- issues first redaction
-- create first PR
-- create Trello board
+- define app basic dependencies - ok
+- spring init - ok
+- create github project - ok
+- push v0 to main - ok
+- issues first redaction - ok
+    - Set liquibase script for H DB migration
+    - Add Thymeleaf task table
+    - Bind task table actions to REST API
+    - Recieve task - cachable action
+    - Add calculation process
+    - Insert calculation results in Rabbitmq queue + set listener
+- create PRs per issue
+- create Trello board (optional)
 
 ----------
